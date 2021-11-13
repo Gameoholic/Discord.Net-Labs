@@ -70,7 +70,7 @@ public async Task Client_Ready()
     // Let's do our global command
     var globalCommand = new SlashCommandBuilder();
     globalCommand.WithName("first-global-command");
-    globalCommand.WithDescription("This is my frist global slash command");
+    globalCommand.WithDescription("This is my first global slash command");
 
     try
     {
